@@ -1,14 +1,10 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
 html{
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after{
-    -webkit-box-sizing: inherit;
     box-sizing: inherit;
 }
 a{
@@ -51,8 +47,6 @@ p, ul, h1, h2, h3, h4{
     position: absolute;
     left: 0;
     top: 0;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9)));
-    background-image: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
     background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
     width: 100%;
     height: 100%;
@@ -66,16 +60,9 @@ p, ul, h1, h2, h3, h4{
     position: relative;
 }
 .main-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
     align-items: baseline;
     margin-bottom: 132px;
 }
@@ -84,10 +71,7 @@ p, ul, h1, h2, h3, h4{
     font-weight: 700;
 }
 .nav-list{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .nav-list__item{
@@ -101,8 +85,6 @@ p, ul, h1, h2, h3, h4{
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
     position: relative;
 }
@@ -115,8 +97,6 @@ p, ul, h1, h2, h3, h4{
     background-color: #fce38a;
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .nav-list__link:hover{
@@ -129,14 +109,9 @@ p, ul, h1, h2, h3, h4{
 }
 
 .nav-buttons{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     max-width: 90px;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -144,35 +119,21 @@ p, ul, h1, h2, h3, h4{
     border: none;
     background: none;
     outline: none;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
 
 }
 .nav-buttons__button svg{
     width: 18px;
     height: 18px;
     fill: white;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
-}
-
-.nav-buttons__button:hover{
-    transform: scale(1.7, 1.7);
 }
 .nav-buttons__button:hover svg{
     fill: #fce38a;
-
 }
 .nav-list-wrap{
     max-width: 620px;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
 
 }
@@ -210,8 +171,6 @@ p, ul, h1, h2, h3, h4{
     padding: 10px 32px;
     border: 3px solid white;
     letter-spacing: -1px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
 
 }
@@ -242,8 +201,6 @@ p, ul, h1, h2, h3, h4{
     background: #f38181;
     left: 50%;
     bottom: 0;
-    -webkit-transform: translate(-50%, 0);
-    -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
 }
 .secondary span{
@@ -257,16 +214,11 @@ p, ul, h1, h2, h3, h4{
 }
 .services-list{
     color: #333333;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 .services-list__item {
-    -ms-flex-preferred-size: 354px;
     flex-basis: 354px;
     width: 100%;
     margin-bottom: 96px;
@@ -336,23 +288,13 @@ p, ul, h1, h2, h3, h4{
     margin:0 auto 90px auto;
 }
 .team-list{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .team-list__menu{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -362,8 +304,6 @@ p, ul, h1, h2, h3, h4{
 }
 .team-list__logo-wrap{
     position: relative;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .team-list__overlay{
@@ -372,22 +312,12 @@ p, ul, h1, h2, h3, h4{
     height: 100%;
     left: 0;
     top: 0;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 226, 138, 0.7)), color-stop(rgba(255, 203, 128, 0.7)), color-stop(rgba(255, 181, 124, 0.7)), color-stop(rgba(253, 160, 125, 0.7)), to(rgba(244, 140, 130, 0.7)));
-    background-image: -o-linear-gradient(bottom, rgba(252, 226, 138, 0.7), rgba(255, 203, 128, 0.7), rgba(255, 181, 124, 0.7), rgba(253, 160, 125, 0.7), rgba(244, 140, 130, 0.7));
     background-image: linear-gradient(to top, rgba(252, 226, 138, 0.7), rgba(255, 203, 128, 0.7), rgba(255, 181, 124, 0.7), rgba(253, 160, 125, 0.7), rgba(244, 140, 130, 0.7));
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 .team-list_item:hover .team-list__overlay{
@@ -397,8 +327,6 @@ p, ul, h1, h2, h3, h4{
 }
 
 .team-list_item:hover .team-list__logo-wrap{
-    -webkit-transform: translate(-3%, -2%);
-    -ms-transform: translate(-3%, -2%);
     transform: translate(-3%, -2%);
 }
 .team-list__menu-item{
@@ -409,20 +337,12 @@ p, ul, h1, h2, h3, h4{
     margin-right: 0;
 }
 .team-list__link{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     width: 56px;
     height: 56px;
     background-color: #fce38a;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .team-list__link:hover{
@@ -435,8 +355,6 @@ p, ul, h1, h2, h3, h4{
     width: 26px;
     height: 26px;
     fill: #f38181;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .team-list__description{
@@ -460,16 +378,10 @@ p, ul, h1, h2, h3, h4{
 
 .wrap-footer{
     color: #333333;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     border-top: 1px solid #e5e5e5;
     padding: 12px 0;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 
 }
@@ -482,8 +394,6 @@ p, ul, h1, h2, h3, h4{
     color: #f38181;
 }
 .form-main{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 .form-main__mail {
@@ -496,38 +406,6 @@ p, ul, h1, h2, h3, h4{
     font-weight: 400;
     width: 229px;
     outline: none;
-}
-.form-main__mail::-webkit-input-placeholder{
-    color: #cccccc;
-    font-family: inherit;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
-    font-style: italic;
-}
-.form-main__mail::-moz-placeholder{
-    color: #cccccc;
-    font-family: inherit;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
-    font-style: italic;
-}
-.form-main__mail:-ms-input-placeholder{
-    color: #cccccc;
-    font-family: inherit;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
-    font-style: italic;
-}
-.form-main__mail::-ms-input-placeholder{
-    color: #cccccc;
-    font-family: inherit;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
-    font-style: italic;
 }
 .form-main__mail::placeholder{
     color: #cccccc;
@@ -551,4 +429,5 @@ p, ul, h1, h2, h3, h4{
     background-color: #95e1d3;
     border: none;
 }
+
 
