@@ -1,0 +1,23 @@
+@media (min-resolution: 192dpi), (min-resolution: 2dppx){
+    .main-head{
+        background-image: url("../img/bcg/bcgx2@2x-min.jpg");
+    }
+    .photography::before{
+        background-image: url("../img/services/alarm@2x.png");
+    }
+    .web::before{
+        background-image: url("../img/services/graph@2x.png");
+    }
+    .creativity::before{
+        background-image: url("../img/services/computer@2x.png");
+    }
+    .seo::before{
+        background-image: url("../img/services/seo@2x.png");
+    }
+    .ch::before{
+        background-image: url("../img/services/home@2x.png");
+    }
+    .digital::before{
+        background-image: url("../img/services/image@2x.png");
+    }
+}
