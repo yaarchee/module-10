@@ -266,12 +266,12 @@ p, ul, h1, h2, h3, h4{
     justify-content: space-around;
 }
 .services-list__item {
-    -ms-flex-preferred-size: 354px;
-    flex-basis: 354px;
-    width: 100%;
-    margin-bottom: 96px;
+    width: 33.33%;
+    margin-bottom: 86px;
     position: relative;
     padding-left: 66px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 
 .services-list__description--title{
@@ -394,6 +394,11 @@ p, ul, h1, h2, h3, h4{
     opacity: 1;
     visibility: visible;
 
+}
+
+.team-list_item{
+    flex-basis: 33%;
+    max-width: 380px;
 }
 
 .team-list_item:hover .team-list__logo-wrap{
