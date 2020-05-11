@@ -42,6 +42,7 @@ p, ul, h1, h2, h3, h4{
     background-image: url(../img/bcg/bcg-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
     padding-top: 24px;
     padding-bottom: 230px;
